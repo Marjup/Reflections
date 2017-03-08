@@ -1,0 +1,16 @@
+Marju's Version Control Lesson 2 Reflections
+
+1) What happens when you initialize a repository? Why do you need to do it?
+
+When you initialize a repository Git makes you a special hidden directory called .git that
+contains the metadata (commit history) of the repository. The metadata enables you to get
+back previous versions of the repository.
+
+
+2) How is the staging area different from the working directory and the repository? 
+   What value do you think it offers?
+
+Staging area is not a physical directory on your computer, it is more like an abstraction of
+directory. It makes possible to choose files you want to commit together also it is possible
+to take back files, if you change your mind and don't want to commit files.
+
