@@ -1,0 +1,57 @@
+Marju's Version Control Lesson 1 Reflections
+
+1) How did viewing a diff between two versions of a file help you spot the bug?
+
+I didn't have to manually check both files. Diff spotted differences between files 
+automatically and showed me only parts of the files that were different. So it was 
+easy to spot the bug, because there were fewer lines of text to read.
+
+
+2) How could having easy access to the entire history of a file make you a more 
+   efficient programmer in the long term?
+
+If you change your code and it doesn't compile, you can get back the version that
+did compile and write new code. You don't have to start all over again, because you
+have a working version of your program. You just need to replace the code that doesn't
+compile with a new code that does compile. That makes you work much faster and produce
+quality code.
+
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, 
+   like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+With programs that save automatically versions, you don't need to worry if there is a history
+about your files. The bad thing is that there are lots of versions that aren't logically
+separated, so it makes changing back to previous version more complicated because it takes
+time to search for the right version to go back. With manual savings you decide when it is
+proper to make a commit. If commits are made between versions with logical change, you can go
+easily back to the previous logic. The con is that you could forget to make commits. And so
+commits can become bigger.
+
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one 
+   commit, while others, like Google Docs, treat each file separately?
+
+I think that some version control systems consider each file as separate unit, git treats all
+files as one project, so if you make a commit, git will save all the files.
+
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+With git log you can see every commit that is made in that repository. Git log shows you
+the commit id, commit author, commit date, and commit message. With git diff you can see
+changes that were made between two commits.
+
+
+6) How might using version control make you more confident to make changes that could 
+   break something?
+
+Because you can always get back the previous version with git checkout. So, changes that broke
+something, can be erased from file.
+
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+Cloning a new repository, making a repository, making commits, making checkouts to see
+earlier versions of repository.
+
