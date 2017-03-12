@@ -2,15 +2,48 @@ Marju's Version Control Lesson 2 Reflections
 
 1) What happens when you initialize a repository? Why do you need to do it?
 
-When you initialize a repository Git makes you a special hidden directory called .git that
-contains the metadata (commit history) of the repository. The metadata enables you to get
-back previous versions of the repository.
+   When you initialize a repository Git makes you a special hidden directory called .git that
+   contains the metadata (commit history) of the repository. The metadata enables you to get
+   back previous versions of the repository.
 
 
 2) How is the staging area different from the working directory and the repository? 
    What value do you think it offers?
 
-Staging area is not a physical directory on your computer, it is more like an abstraction of
-directory. It makes possible to choose files you want to commit together also it is possible
-to take back files, if you change your mind and don't want to commit files.
+   Staging area is not a physical directory on your computer, it is more like an abstraction of
+   directory. It makes possible to choose files you want to commit together also it is possible
+   to take back files, if you change your mind and don't want to commit files.
+
+
+3) How can you use the staging area to make sure you have one commit per logical change?
+
+   You can use git diff with no arguments that will compare files in your working directory
+   with files in your staging area. It shows only files that are modified. You can then make sure
+   that in the staging area are files that present one logical change and so you can commit them
+   together.
+
+
+4) What are some situations when branches would be helpful in keeping your history organized? 
+   How would branches help?
+
+   When you want to try out a new feature/version of your program, you can make a branch, and all
+   commits that are associated with that branch belong to that version. So it is easy to go back
+   to different versions because every branch has its own commit history.
+   
+   
+5) How do the diagrams help you visualize the branch structure?
+
+   Each branch is marked differently in the log list and so different from the master branch.
+
+
+6) What is the result of merging two branches together? Why do we represent it in the 
+   diagram the way we do?
+   
+   The result is all the commits that are in both branches.
+
+
+7) What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+   
+   Pros: you don't need to go through all the files by yourself, so it is quicker and more reliable.
+   Cons: Sometimes you don't want to get the result that Git offers.
 
