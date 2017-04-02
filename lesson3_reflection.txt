@@ -13,3 +13,10 @@ Marju's Version Control Lesson 3 Reflections
    and you don't have a working feature yet, so you can keep working and commiting changes and
    finally when it works then you can push the changes to remote.
    
+3) Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+   Forks can be used to clone someone else's repository on Github to your Github account and then you can
+   clone the repository to your local machine. Then you can make a new branch to start adding changes to
+   the repository.
+
+   
