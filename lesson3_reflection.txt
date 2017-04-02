@@ -18,5 +18,10 @@ Marju's Version Control Lesson 3 Reflections
    Forks can be used to clone someone else's repository on Github to your Github account and then you can
    clone the repository to your local machine. Then you can make a new branch to start adding changes to
    the repository.
+   
+4) What is the benefit of having a copy of the last known state of the remote stored locally?
+
+    If you don't have internet access, you can still work with the project. You can also easily merge
+    and handle conflicts with remote repository.
 
    
