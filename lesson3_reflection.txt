@@ -28,4 +28,9 @@ Marju's Version Control Lesson 3 Reflections
 
     I think I should have to use e-mail or something like that, for changing files. It would be a lot harder
     to manage different changes and the original version, that is correct.
+
+6) When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+   When I need to test some concepts before I choose to add them in the master or when I want that someone else reviews these changes before
+   before mergin them in master.
    
